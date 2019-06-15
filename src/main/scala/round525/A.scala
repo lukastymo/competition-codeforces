@@ -1,3 +1,5 @@
+package round525
+
 import scala.io.StdIn
 
 object A extends App {

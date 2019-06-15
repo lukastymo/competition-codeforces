@@ -1,4 +1,6 @@
- import scala.io.StdIn
+package round525
+
+import scala.io.StdIn
 
 object B extends App {
   def readInts = StdIn.readLine().split(" ").map(_.toInt)
