@@ -1,3 +1,5 @@
+package misc
+
 import scala.io.StdIn._
 
 object A_1167 extends App {

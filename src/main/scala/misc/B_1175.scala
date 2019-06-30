@@ -1,3 +1,5 @@
+package misc
+
 import scala.collection.mutable
 import scala.io.StdIn._
 

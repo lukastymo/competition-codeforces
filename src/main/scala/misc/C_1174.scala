@@ -1,4 +1,5 @@
-import scala.collection.mutable
+package misc
+
 import scala.io.StdIn._
 
 object C_1174 extends App {

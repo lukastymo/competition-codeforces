@@ -1,14 +1,14 @@
-import scala.annotation.tailrec
-import scala.collection.mutable
+package misc
+
 import scala.io.StdIn._
 
 object C_1167 extends App {
 
-  val Array(n, m)  = readLine().split(" ").map(_.toInt)
+  val Array(n, m) = readLine().split(" ").map(_.toInt)
 
-  val routes = Array.ofDim[List[Int]](m + 1)
+  val routes  = Array.ofDim[List[Int]](m + 1)
   val visited = Array.ofDim[Boolean](n + 1)
-  val answer = Array.ofDim[Int](n + 1)
+  val answer  = Array.ofDim[Int](n + 1)
 
   1 to n foreach { i =>
     visited(i) = false
@@ -22,8 +22,7 @@ object C_1167 extends App {
 
   var groups = 0
   1 to m foreach { route =>
-
-    val nodes = routes(route)
+    val nodes      = routes(route)
     var wasVisited = false
 
     for (j <- nodes.indices) {
