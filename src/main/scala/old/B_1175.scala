@@ -1,4 +1,4 @@
-package misc
+package old
 
 import scala.collection.mutable
 import scala.io.StdIn._

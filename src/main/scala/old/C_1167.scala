@@ -1,4 +1,4 @@
-package misc
+package old
 
 import scala.io.StdIn._
 
