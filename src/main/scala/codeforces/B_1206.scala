@@ -1,3 +1,5 @@
+package codeforces
+
 import scala.io.StdIn._
 
 object B_1206 extends App {
