@@ -1,3 +1,5 @@
+package codeforces.round654
+
 import scala.io.StdIn._
 
 object A extends App {
